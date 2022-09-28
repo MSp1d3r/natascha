@@ -1,0 +1,220 @@
+/* Bulma framework */
+
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    flex: 1;
+    justify-content: space-around;
+    items-align: center;
+  
+    
+}
+
+
+nav .caixa {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-image: linear-gradient(88.27deg, #ffc47c 100%, #8ad6ff 0%);
+    padding: 20px 0;
+}
+
+@media screen and (max-width: 670px) {
+    nav .caixa {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+}
+
+.nav-lista {
+    margin-right: 0%;
+}
+
+@media screen and (max-width: 430px) {
+    .nav-lista {
+        font-size: 12px;
+    }
+
+}
+
+.logo {
+    position: absolute;
+    top: -2px;
+    margin-left: 10%;
+   
+}
+
+@media screen and (max-width:670px) {
+    .logo {
+        position: relative;
+        width: 8rem;
+        height: 4rem;
+    }
+}
+
+.caixa {
+    position: relative;
+    width: 1440px;
+    margin: 0 auto 0 auto;
+}
+
+.principal {
+    padding: 3m 0;
+    background: #ffffff;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.titulo-principal:first-letter {
+    font-weight: bold;
+}
+
+/* CSS do banner inicial*/
+.banner {
+    
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 100%;
+    box-shadow: 0 0 0 5px #ffc47c;
+
+}
+
+.banner-servicos {
+    display: block;
+    margin: 5px auto;
+    max-width: 100%;
+    box-shadow: 1px 1px 2px 2px #ffc47c;
+}
+
+.banner-servicos:hover {
+    opacity: 0.9;
+}
+
+/* Alinhamento e tamanho do texto quem somos */
+.quemsomos {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    margin: 0 20px 20px 0;
+}
+
+/* Alinhamento texto formulario fale conosco */
+#faleconosco {
+    text-align: left;
+}
+
+
+em strong {
+    color: #ffc47c;
+}
+
+#horario {
+    text-align: center;
+}
+
+.mapa {
+    padding: 3em 0;
+    background: linear-gradient(#ffffff);
+}
+
+.mapa-conteudo {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center
+}
+
+.servicos {
+    padding: 3em 0;
+    background: #fff;
+}
+
+.lista-principal {
+    text-align: center;
+    font-size: 1em;
+
+}
+
+
+.lista-servicos {
+    width: 640px;
+    margin: 0 auto;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+@media screen and (max-width: 370px) {
+    .nav-servicos {
+        font-size: 10px;
+    }
+
+}
+
+.main-contato {
+    width: 70%;
+    height: 100%;
+    margin: 50px auto 0px auto;
+    background-color: #ffffff;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label,
+form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+}
+
+/* Degrade do footer */
+footer {
+    background-image: linear-gradient(88.27deg, #ffc47c 100%, #8ad6ff 0%);
+    padding: 20px 0px;
+    min-width: 100vw;
+    bottom: 0;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+.redesocial a {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    position: relative;
+  
+   
+}
+
+

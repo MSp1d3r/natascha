@@ -1,12 +1,14 @@
 
-- Site - Natascha Lavanderia ->
-http://www.nataschalavanderia.com.br
+## Site - Natascha Lavanderia 
+# http://www.nataschalavanderia.com.br
 
-🎮 Web front-end
+## 🎮 Web front-end
 
-HTML:5;
-CSS:3
-JavaScript
-Bulma CSS
+- HTML:5
+- CSS:3
+- JavaScript
+- Bulma CSS
 
-<--->
+--
+
+# my firft created website, after 22 years

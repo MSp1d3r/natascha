@@ -11,4 +11,4 @@
 
 --
 
-- my first created website, after 22 years
+- my first website developed from scratch after 20 years.

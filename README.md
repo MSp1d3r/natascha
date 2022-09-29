@@ -12,3 +12,5 @@
 --
 
 - my first website developed from scratch after 20 years.
+
+- I used CSS:3 Style Language to make an image carousel and Javascript to animation an image banner.
